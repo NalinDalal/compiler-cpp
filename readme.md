@@ -641,7 +641,7 @@ Block Diagram:
 
 3 Address Code:
 
-```mermaid
+```
 B1:
     (1) f = 1
     (2) i = 1
@@ -858,3 +858,14 @@ Directed Acyclic Graph
 
 3. Loop Unrolling
    skip unused code
+
+# Compile & Run
+
+```sh
+mkdir build && cd build
+cmake ..
+make
+./nova ../test/test1.nova
+./out
+
+```
